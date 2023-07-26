@@ -1,0 +1,647 @@
+/* font-family: 'Poppins', sans-serif; */
+@font-face {
+    font-family: Poppins-light;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 246, 246);
+    overflow-x: hidden;
+    font-family: Poppins;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.form-control {
+    border: 1px solid #AEABAB;
+    border-radius: 13px;
+    height: 45px;
+    color: #7E7E7E;
+    font-size: 14px;
+}
+
+section {
+    padding: 40px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #601FA1;
+}
+
+img {
+    max-width: 100%;
+}
+h4{
+    font-size: 32px;
+    font-family: Poppins-Medium;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 5px;
+    min-width: 160px;
+    margin: 5px auto;
+}
+
+.bg-blue {
+    background-color: #381075 !important;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background: #601FA1;
+    color: white;
+    border: 1px solid #601FA1;
+    box-shadow: 2px 4px 4px 2px rgba(140, 140, 140, 0.15);
+    border-radius: 61px;
+}
+
+.btn-primary:hover {
+    background-color: #381075;
+}
+
+.btn-light {
+    background: #FFFFFF;
+    color: #601FA1;
+    border: 1px solid #601FA1;
+    box-shadow: 3px 4px 4px 4px rgba(73, 73, 73, 0.15);
+    border-radius: 61px;
+
+}
+
+.btn-light:hover {
+    background: #601FA1;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.text-primary {
+    color: #0D328D !important;
+}
+
+.main-para {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.mini-para {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+}
+
+.main-heading {
+    margin-bottom: 30px;
+    font-family: Poppins-SemiBold;
+    padding: 15px 0px;
+    font-size: 64px;
+    text-align: center;
+    font-weight: 700;
+    color: #1C1C1C;
+}
+
+.mini-heading {
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 53px;
+
+}
+.shadow-card{
+    border-radius: 61px;
+    background-color: white;
+    box-shadow: 0px 10px 40px 0px #00000026;
+    padding: 15px 20px;
+
+}
+.shadow-card-blue{
+    padding: 15px 20px;
+    border-radius: 61px;
+    background-color: #381075;
+    box-shadow: 0px 10px 40px 0px #00000026;
+}
+
+/* hero-section  */
+.hero-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-section .row {
+    align-items: center;
+}
+
+.hero-section .row h1 {
+    font-family: Poppins-Bold;
+    font-size: 62px;
+    font-weight: 900;
+    color: #601FA1;
+
+}
+
+.hero-section .row h1 span {
+    font-size: 45px;
+    font-weight: 700;
+    color: #555555;
+}
+
+.hero-section .row h2 {
+    font-size: 56px;
+    color: white;
+}
+
+.hero-section .row .btn {
+    padding: 14px 40px;
+    font-size: 20px;
+    /* padding-bottom: 12px; */
+    font-weight: 900;
+}
+
+/* hot game  */
+.hot-game {
+    padding: 40px 0px;
+}
+
+.hot-game .card {
+    padding: 15px 20px;
+    box-shadow: 0px 10px 40px 0px #381075;
+    border-radius: 38px;
+    position: relative;
+}
+
+.hot-game .card-white {
+    color: #381075;
+    background-color: white;
+}
+
+.hot-game .card-blue {
+    color: white;
+    background-color: #381075;
+}
+
+.hot-game .card-heading {
+    font-size: 34px;
+    font-weight: 700;
+    padding: 30px 0px;
+}
+
+.hot-game .card-top {
+    position: relative;
+    background: white;
+    z-index: 2;
+    margin-left: auto;
+    margin-bottom: -66px;
+    box-shadow: 0px 10px 40px 0px #38107573;
+    top: 0px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.hot-game .btn {
+    padding: 12px 20px;
+    min-width: 75%;
+    font-family: Poppins-Bold;
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.hot-game .card .card-details {
+    margin: 0px;
+    padding-top: 15px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-top: 0.5px solid #e6e1eea7;
+}
+
+.hot-game .card .card-details p {
+    padding: 0px;
+}
+
+.hot-game .card .badge {
+    border-radius: 36px;
+    padding: 8px 14px;
+    font-size: 20px;
+    color: #381075;
+    display: inline-block;
+}
+
+.hot-game .card-white .badge {
+    color: white;
+    background-color: #381075;
+    box-shadow: 0px 10px 40px 0px #0000001C;
+}
+ /* why app  */
+ .why-app{
+    padding: 70px 0px;
+ }
+ .why-app .main-heading span{
+    background: #FFFFFF;
+    border: 1px solid #B0AFAF;
+    border-radius: 61px;
+    padding: 15px 10%;
+ }
+ .why-app .shadow-card-blue{
+    padding: 0px;
+ }
+ .why-app .box{
+    padding: 15px;
+    text-align: center;
+ }
+ 
+ .why-app .box img{
+    padding: 15px;
+    max-width: 100px;
+ }
+ .why-app .box h4{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    color: white;
+    margin: 20px auto;
+ }
+ .why-app .white-box{
+    padding-top: 50px;
+    position: relative;
+    margin-top: -50px;
+    background-color: white;
+    border-top-right-radius: 61px;
+    border-top-left-radius: 61px;
+    box-shadow: 0px 1px 27px 0px #00000024;
+     }
+ .why-app .white-box h4{
+    color: #0D328D;
+ }
+
+ footer{
+    padding: 100px 0px 40px 0px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #220C5B 100%);
+
+ }
+
+ .company-logo{
+     background-image: url('../images/common_images/company_logos_bg.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+ .company-logo .row{
+     min-height: 400px;
+ }
+
+ footer .shadow-card-blue{
+    color: white;
+    padding: 25px 40px;
+    background-color: #220C5B;
+    
+ }
+ footer .shadow-card-blue h4{
+    text-align: center;
+    font-weight: 600;
+    padding: 15px 0px;
+    margin-bottom: 15px;
+    border-bottom: 1px dashed #FFFFFF;
+ }
+ footer .link-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 20px 0px;
+    border-bottom: 1px dashed #220C5B;
+ }
+ footer .link-row h4{
+    font-size: 28px;
+ }
+ footer .copyright{
+    font-size: 24px;
+    font-family: Poppins-Medium;
+    padding-top: 12px;
+    font-weight: 500;
+    text-align: center;
+
+ }
+
+@media(min-width:992px) {
+    footer .shadow-card .box{
+        position: relative;
+        left: -35px; 
+     }
+    footer .shadow-card .box .shadow-card-blue{
+        min-height: 450px;
+     }
+     .hero-section .row {
+        background-image: url('../images/home/gaming_girl.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right center;
+    }
+    .hero-section .hero-img{
+        display: none;
+    }
+}
+@media(min-width:1200px) {
+    footer .shadow-card .box{
+        position: relative;
+        left: -35px; 
+     }
+    footer .shadow-card .box .shadow-card-blue{
+        min-height: 450px;
+
+     }
+     .why-app .white-box{
+        min-height: 342px;
+}
+     }
+}
+@media(max-width:1200px){
+    
+    .hero-section .row {
+        min-height: 450px;
+    }
+
+    .hero-section .row h1 {
+        font-size: 42px;
+    }
+
+    .hero-section .row h1 span {
+        font-size: 34px;
+    }
+
+    .hero-section .row h2 {
+        font-size: 36px;
+    }
+
+    .hero-section .row .btn {
+        padding: 7px;
+        font-size: 12px;
+        margin: 5px auto;
+    }
+    footer .shadow-card-blue{
+        color: white;
+        padding: 25px 40px;
+        background-color: #220C5B;
+        
+     }
+     footer .shadow-card-blue p{
+        font-size: 18px;
+     }
+     footer .link-row h4{
+        font-size: 26px;
+     }
+     footer .copyright{
+        font-size: 22px;
+     }
+}
+
+@media(max-width:992px) {
+    h4{
+        font-size: 26px;
+    }
+    .main-heading {
+        font-size: 48px;
+        margin-bottom: 0px;
+    }
+
+    .hero-section .row h1 {
+        font-size: 38px;
+    }
+
+    .hero-section .row h1 span {
+        font-size: 24px;
+    }
+
+    .hero-section .row h2 {
+        font-size: 32px;
+    }
+
+    .hero-section .row .btn {
+        padding: 7px;
+        font-size: 12px;
+        margin: 5px auto;
+    }
+
+    /* hot game  */
+    .hot-game .card {
+        padding: 15px 20px;
+    }
+
+    .hot-game .card-heading {
+        font-size: 34px;
+    }
+
+    .hot-game .card-top {
+        margin-bottom: -56px;
+        width: 170px;
+        height: 170px;
+    }
+
+    .hot-game .btn {
+        padding: 10px 20px;
+        font-size: 24px;
+    }
+
+    .hot-game .card .badge {
+        padding: 8px 14px;
+        font-size: 18px;
+    }
+
+     footer .link-row h4{
+        font-size: 24px;
+     }
+}
+
+@media(max-width:768px) {
+    h4{
+        font-size: 24px;
+    }
+    .main-heading {
+        font-size: 44px;
+        margin-bottom: 0px;
+    }
+
+    .hero-section .row h1 {
+        font-size: 34px;
+    }
+
+    .hero-section .row h1 span {
+        font-size: 26px;
+    }
+
+    .hero-section .row h2 {
+        font-size: 28px;
+    }
+
+    .hero-section .row .btn {
+        padding: 7px;
+        font-size: 12px;
+        margin: 5px auto;
+    }
+
+    /* hot game  */
+
+    .hot-game .card-heading {
+        font-size: 32px;
+    }
+
+    .hot-game .card-top {
+        margin-bottom: -56px;
+        width: 170px;
+        height: 170px;
+    }
+
+    .hot-game .btn {
+        padding: 10px 20px;
+        min-width: 70%;
+        font-size: 20px;
+
+    }
+    .why-app .box h4{
+        font-size: 18px;
+        line-height: 25px;
+
+    }
+    .why-app .box img{
+        padding: 5px;
+        max-width: 80px;
+    }
+
+
+     footer .link-row h4{
+        font-size: 20px;
+     }
+     footer .copyright{
+        font-size: 22px;
+    
+     }
+     footer .shadow-card-blue p{
+        font-size: 16px;
+     }
+     .company-logo .row{
+        min-height: 200px;
+    }
+}
+
+@media(max-width:576px) {
+    h4{
+        font-size: 20px;
+    }
+    .main-heading {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .shadow-card{
+        padding: 10px 5px;
+    }
+    .shadow-card-blue{
+        padding: 10px 5px;
+    }
+
+    .hero-section .row h1 {
+        font-size: 28px;
+    }
+
+    .hero-section .row h1 span {
+        font-size: 24px;
+    }
+
+    .hero-section .row h2 {
+        font-size: 26px;
+    }
+
+    /* hot game  */
+    .hot-game .card-heading {
+        font-size: 26px;
+    }
+
+    .hot-game .card-top {
+        margin-bottom: -56px;
+        width: 170px;
+        height: 170px;
+    }
+
+    .hot-game .btn {
+        margin-top: 10px;
+        padding: 10px 20px;
+        min-width: 75%;
+        font-size: 18px;
+
+    }
+
+    .hot-game .card .card-details {
+        padding-top: 12px;
+        padding-bottom: 8px;
+        font-size: 14px;
+    }
+
+    .hot-game .card .badge {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .why-app .main-heading span {
+        background: none;
+        border: none;
+    }
+    .why-app .box h4{
+        font-size: 16px;
+    }
+    .why-app .box img{
+        max-width: 60px;
+    }
+    footer .link-row{
+        display: block;
+        text-align: center;
+        padding: 15px;
+        border-bottom: none;
+     }
+     footer .shadow-card-blue{
+        padding: 20px;
+
+     }
+     footer .shadow-card-blue p{
+        font-size: 14px;
+     }
+     footer .link-row h4{
+        font-size: 16px;
+     }
+     footer .copyright{
+        font-size: 18px;
+    
+     }
+}
