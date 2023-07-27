@@ -51,7 +51,7 @@ ul {
 }
 
 section {
-    padding: 40px;
+    padding: 40px 0px;
 }
 
 .form-control:focus {
@@ -326,6 +326,140 @@ h4{
      min-height: 400px;
  }
 
+ 
+ .testimonial {
+    padding: 20px 15px 50px;
+    
+}
+
+.testimonial .description p{
+    margin-bottom: 0px;
+}
+.testimonial .description {
+    box-shadow: 0px 10px 40px 0px #0000001F;
+    background: white;
+    border-radius: 6px;
+    color: #929292;
+    font-size: 18px;
+    padding: 45px 35px;
+    position: relative;
+}
+
+.testimonial .description .fa-quote-right {
+    font-weight: 900;
+    position: absolute;
+    top: -15px;
+    font-size: 30px;
+    color: #381075;
+}
+.testimonial .description .fa-quote-left {
+    font-weight: 900;
+    position: absolute;
+    bottom: -15px;
+    right: 10%;
+    font-size: 30px;
+    color: #381075;
+}
+
+.testimonial .description:after {
+    content: "";
+    width: 27px;
+    position: absolute;
+    bottom: -28px;
+    left: 30px;
+    border-top: 30px solid white;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.testimonial-review {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonial .testimonial_pic{
+    margin-top: 40px;
+    max-width: 100px;
+    max-height: 100px;
+}
+.testimonial_pic img {
+    border-radius: 50%;
+}
+
+.testimonial-review .testimonial-title {
+    color: #4A4A4A;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+    float: left;
+    text-transform: capitalize;
+}
+
+
+.testimonial-title small {
+    display: block;
+    color: #999;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.testimonial .rating {
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.rating li {
+    display: inline-block;
+    color: #FFB800;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span,
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background: #381075;
+}
+
+.owl-theme .owl-controls .owl-page span,
+.owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    opacity: 1;
+}
+
+.app-section{
+    background-color: #381075;
+    position: relative;
+}
+.app-section .app-bg{
+    padding: 50px;
+    max-width: 345px;
+    margin: 10px auto;
+    min-height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* box-shadow: 0px 10px 40px 0px #00000026; */
+
+}
+.game-news .owl-dots,
+.app-section .owl-dots{
+    position: relative;
+    bottom: -100px;
+}
+.app-section .bg-white{
+    min-height: 300px;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    top: 30%;
+}
+
+
  footer .shadow-card-blue{
     color: white;
     padding: 25px 40px;
@@ -374,6 +508,10 @@ h4{
     .hero-section .hero-img{
         display: none;
     }
+
+
+
+    
 }
 @media(min-width:1200px) {
     footer .shadow-card .box{
@@ -484,6 +622,28 @@ h4{
      footer .link-row h4{
         font-size: 24px;
      }
+     .testimonial .description{
+        text-align: center;
+     }
+     .testimonial_pic {
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    .testimonial .description p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .testimonial-review{
+        flex-direction: column;
+    }
+    .testimonial-review .testimonial-title {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .rating li {
+        font-size: 14px;
+        margin: 2px;
+    }
 }
 
 @media(max-width:768px) {
@@ -645,3 +805,25 @@ h4{
     
      }
 }
+
+
+@media only screen and (max-width: 480px) {
+    .testimonial_pic {
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+    .testimonial .description p{
+        font-size: 14px;
+    }
+    .testimonial-review{
+        flex-direction: column;
+    }
+    .testimonial-review .testimonial-title {
+        font-size: 18px;
+    }
+    .rating li {
+        font-size: 12px;
+        margin: 2px;
+    }
+}
+
