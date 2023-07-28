@@ -21,6 +21,76 @@
    <title></title>
 </head>
 
+<!-- header  -->
+<header>
+   <div class="container header-container">
+      <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+
+         <!-- navigation dropdown button  -->
+         <div class="order-lg-2">
+            <button class="btn btn-search-icon" type="button" data-toggle="collapse" data-target="#collapseMenu" aria-expanded="false" aria-controls="collapseMenu">
+               <img src="assets/images/icons/burger_menu.png" alt=""> <span class="d-none d-sm-inline-block">Categories</span>
+             </button>
+   
+         <!-- navigation dropdown menu collapse -->
+             <div class="collapse" id="collapseMenu">
+               <div class="card card-body">
+                  <ul class="nav flex-column">
+                     <li class="nav-item">
+                       <a class="nav-link active" href="#">Active <i class="fa fa-angle-right"></i></a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="#">Link</a>
+                     </li>
+                   </ul>
+               </div>
+             </div>
+         </div>
+
+         <!-- logo  -->
+         <a class="navbar-brand order-lg-1" href="#"><img src="assets/images/icons/dummy_logo.png" alt=""></a>
+
+         
+
+         <!-- dektop search  -->
+         <form class="col-4 my-2 my-lg-0 order-3 d-none d-lg-block">
+            <div class="position-relative">
+               <input class="form-control search-input mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+               <button class="btn search-icon btn-search-icon" type="submit"><i class="fa fa-search"></i></button>
+            </div> 
+         </form>
+
+         <!-- mobile search   -->
+         <div class=" d-block d-lg-none">
+            <button class="btn btn-search-icon" type="button" data-toggle="collapse" data-target="#collapseSearch" aria-expanded="false" aria-controls="collapseSearch">
+               <i class="fa fa-search"></i>
+             </button>
+         </div>
+
+
+         <!-- sell buy buttons  -->
+         <div class="col-12 col-lg order-4 d-none d-lg-flex justify-content-lg-end">
+            <button class="btn btn-light m-1"><img src="assets/images/icons/shopping-bag.png" alt=""> HOW TO BUY</button>
+            <button class="btn btn-primary m-1"><img src="assets/images/icons/shopping-bag-sell.png" alt=""> SELL AT APP</button>
+         </div>
+       </nav>
+       
+   
+       <!-- search collapsed  -->
+       <div class="container">
+         <div class="collapse" id="collapseSearch">
+            <div class="card card-body p-2 border-0">
+               <form class="my-2">
+                  <div class="position-relative">
+                     <input class="form-control search-input mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                     <button class="btn search-icon btn-search-icon" type="submit"><i class="fa fa-search"></i></button>
+                  </div> 
+               </form>
+            </div>
+          </div>
+       </div>
+   </div>
+</header>
 
 <body>
    <!-- header -->
@@ -806,6 +876,14 @@
       });
 
 
+      $(window).scroll(function(){
+  if ($(window).scrollTop() >= 330) {
+    $('header').addClass('sticky-top bg-white');
+   }
+   else {
+    $('header').removeClass('sticky-top bg-white');
+   }
+});
 
    </script>
 

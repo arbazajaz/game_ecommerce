@@ -1,3 +1,64 @@
+header .btn{
+    font-weight: bold;
+}
+header .btn img{
+    margin-right: 5px;
+}
+header .navbar-brand img{
+    max-width: 130px; 
+    margin-right: 5px;
+    }
+header #collapseMenu{
+    position: absolute;
+    z-index: 2;
+}
+header #collapseMenu .card{
+    min-width: 200px;
+    border-radius: 10px;
+}
+header #collapseMenu .card a{
+    color: #565656;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+header #collapseMenu .card a.active{
+    color: #381075;
+}
+header #collapseMenu .card a .fa{
+    color: #381075;
+    font-size: 20px;
+    font-weight: bold;
+}
+header #collapseSearch{
+    /* max-width: 95%; */
+    position: relative;
+    z-index: 2;
+}
+header .btn-light:hover img{
+    filter: invert(0.7);
+}
+header .search-input{
+    padding-right: 40px;
+    border-radius: 20px;
+    border: 1px solid #D5D5D5;
+    box-shadow: 0px 10px 40px 0px #00000017;
+
+}
+header .search-icon{
+    position: absolute;
+    right: 20px;
+    top: 10%;
+    z-index: 2;
+}
+header .btn-search-icon{
+    padding: 0px;
+    border-radius: 5px;
+    min-width: 10px;
+    margin: 5px auto;
+    
+}
+
 .game-news{
     background-color: #381075;
     margin-top: 100px;
@@ -71,6 +132,9 @@
     }
 }
 @media (max-width: 768px){
+    header .navbar-brand img{
+        max-width: 100px;
+    }
     .steps .step-img{
         width: 60px;
         height: 60px;
