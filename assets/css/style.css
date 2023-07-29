@@ -114,6 +114,9 @@ h4{
 .text-primary {
     color: #0D328D !important;
 }
+.text-3c{
+    color: #3C3C3C !important;
+}
 
 .main-para {
     font-size: 20px;
@@ -137,10 +140,9 @@ h4{
 }
 
 .mini-heading {
-    font-family: Poppins;
+    font-family: Poppins-Medium;
     font-size: 35px;
     font-weight: 500;
-    line-height: 53px;
 
 }
 .shadow-card{
@@ -880,10 +882,16 @@ footer{
     h4{
         font-size: 20px;
     }
+    p{
+        font-size: 12px;
+    }
     .main-heading {
-        font-size: 30px;
+        font-size: 28px;
         margin-bottom: 0px;
     }
+    .mini-heading {
+        font-size: 18px;
+      }
     .shadow-card{
         padding: 10px 5px;
     }

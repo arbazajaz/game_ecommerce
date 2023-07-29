@@ -74,13 +74,98 @@
       margin-top: 40px;
   }
   
+.reliable{
+  background-color: #220C5B;
+  color: white;
+}
+.reliable .main-heading{
+  color: white;
+}
+.faq-section .mini-heading{
+  color: #1c1c1c;
+  font-family: Poppins-SemiBold;
+}
+.faq-section .question{
+  position: relative;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.faq-section .question p{
+  padding: 10px;
+  color: #5B5B5B;
+}
+
+.faq-section hr{
+  position: absolute;
+  left: 5px;
+  top: 20px;
+    border: none;
+    border-left:3px solid #601FA1;
+    height: 80px;
+    width:  1px;   
+
+}
+.sell-steps img{
+  max-height: 143px;
+  margin-bottom: 20px;
+}
+.sell-hero .amount{
+  position: absolute;
+  right: 0px;
+  top: -30px;
+  width: 300px;
+  background-color: #601FA1;
+  color: white;
+  border-radius: 20px;
+  font-family: Poppins-Bold;
+}
+.sell-hero .amount .row{
+  height: 120px;
+  align-items: center;
+}
+.sell-hero .dollar{
+  position: absolute;
+  right: -10px;
+  top: -80px;
+}
+.sell-hero .coin{
+  position: absolute;
+  left: 0px;
+  top: -20px;
+}
+@media (max-width: 1200px){
+  .sell-hero .amount{
+    right: 0px;
+    top: -100px;
+    width: 300px;
+  }
+  .sell-hero .amount .row{
+    height: 120px;
+  }
+  .sell-hero .coin{
+    left: 0px;
+    top: -20px;
+  }
+}
 @media (max-width: 992px){
+  .mini-heading {
+    font-size: 26px;
+  }
   .box-section .box-align .box {
     margin: 5px 0px;
     padding-top: 45px;
   }
+  
 }
+
 @media (max-width: 768px){
+  p{
+    font-size: 14px;
+}
+  .mini-heading {
+    font-size: 22px;
+  }
   .banner-section .breadcrumb .breadcrumb-item a {
     font-size: 12px;
   }
@@ -91,4 +176,20 @@
   color: #737373;
   font-size: 14px;
 }
+.sell-steps .main-para{
+  font-size: 18px;
 }
+.sell-steps img{
+  max-height: 123px;
+  margin-bottom: 20px;
+}
+}
+  @media (max-width: 576px){
+    .sell-steps .main-para{
+      font-size: 16px;
+    }
+    .sell-steps img{
+      max-height: 103px;
+      margin-bottom: 20px;
+    }
+  }
