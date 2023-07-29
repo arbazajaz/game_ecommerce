@@ -1,145 +1,94 @@
-header .btn{
-    font-weight: bold;
-}
-header .btn img{
-    margin-right: 5px;
-}
-header .navbar-brand img{
-    max-width: 130px; 
-    margin-right: 5px;
-    }
-header #collapseMenu{
-    position: absolute;
-    z-index: 2;
-}
-header #collapseMenu .card{
-    min-width: 200px;
-    border-radius: 10px;
-}
-header #collapseMenu .card a{
-    color: #565656;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-}
-header #collapseMenu .card a.active{
-    color: #381075;
-}
-header #collapseMenu .card a .fa{
-    color: #381075;
-    font-size: 20px;
-    font-weight: bold;
-}
-header #collapseSearch{
-    /* max-width: 95%; */
-    position: relative;
-    z-index: 2;
-}
-header .btn-light:hover img{
-    filter: invert(0.7);
-}
-header .search-input{
-    padding-right: 40px;
-    border-radius: 20px;
-    border: 1px solid #D5D5D5;
-    box-shadow: 0px 10px 40px 0px #00000017;
 
-}
-header .search-icon{
-    position: absolute;
-    right: 20px;
-    top: 10%;
-    z-index: 2;
-}
-header .btn-search-icon{
+.banner-section {
+    background: url(../img/Rectangle.png);
+    min-height: 248px;
+  }
+  .banner-section .menu-bar {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .banner-section .breadcrumb {
+    background: #000000;
+    opacity: 50%;
+  }
+  
+  .banner-section .breadcrumb {
+    padding-left: 35px;
+  }
+  .banner-section .breadcrumb .breadcrumb-item a {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+  }
+  .box-section {
+    background-color: #F1F1F1;
     padding: 0px;
-    border-radius: 5px;
-    min-width: 10px;
-    margin: 5px auto;
-    
-}
-
-.game-news{
-    background-color: #381075;
-    margin-top: 100px;
-    vertical-align: baseline;
-    color: white;
-}
-.game-news .main-heading{
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    color: white;
-}
-.game-news .main-heading span{
-    padding-bottom: 30px;
-    padding-left: 20px;
-}
-.game-news .post-title{
-    border-top: 3px solid white;
-    padding-top: 20px;
-    margin-right: 15px;
-    font-size: 26px;
-}
-.game-news .post-title a{
-    color: white;
-}
-.game-news .post-date{
-    color: #B790F3;
-    padding: 10px 0px;
-}
-.game-news .btn-light{
-    border-radius: 5px;
-    font-weight: bold;
-}
-.game-news .btn-light i{
-    font-weight: bolder;
-}
-
-.steps{
-    margin-top: 100px;
-}
-.steps .steps_bg{
-    background-size: contain;
-    background-repeat: no-repeat;
-    /* background-position: center center; */
-}
-.steps .step-img{
-    display: flex;
-    justify-content: center;
+  }
+  .box-section .box-align {
+    min-height: 250px;
     align-items: center;
-    width: 120px;
-    height: 120px;
-    border-radius: 100%;
-    background-color: #381075;
-    margin: 5px auto;
-}
-.steps .step-img img{
-    max-width: 70px;
-}
+    text-align: center;
+  }
+  .box-section .box-align .box {
+    padding-top: 45px;
+  }
+  .box-section .box-align .box p {
+    padding-top: 10px;
+  }
+  
+  .game-news-page .row{
+    
+    background-image: url('../images/icons/border_line.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-weight: 500;
+  }
+  .game-news-page .breadcrumb {
+    
+    justify-content: center;
+    margin-top: 36px;
+    background: none;
+  }
+  
+  .game-news-page .breadcrumb a {
+    color: #1c1c1c;
+  }
+  .game-news-page p {
+    text-align: center;
+  }
 
+  .blog .pubg-img{
+  
+      text-align: center;
+  }
+  .blog .pubg-img img {
+      border-radius: 19px;
+      margin-top: 40px;
+  }
+  .blog p{
+    color: #737373;
+    font-size: 18px;
+  }
+  .blog .para{
+      margin-top: 40px;
+  }
+  
 @media (max-width: 992px){
-    .steps .main-para{
-        margin-top: 15px;
-        font-size: 14px;
-    }
-    .steps .step-img{
-        width: 90px;
-        height: 90px;
-    }
-    .steps .step-img img{
-        max-width: 50px;
-    }
+  .box-section .box-align .box {
+    margin: 5px 0px;
+    padding-top: 45px;
+  }
 }
 @media (max-width: 768px){
-    header .navbar-brand img{
-        max-width: 100px;
-    }
-    .steps .step-img{
-        width: 60px;
-        height: 60px;
-    }
-    .steps .step-img img{
-        max-width: 30px;
-    }
+  .banner-section .breadcrumb .breadcrumb-item a {
+    font-size: 12px;
+  }
+  .box-section .box-align .box p {
+    font-size: 12px;
+}
+.blog p{
+  color: #737373;
+  font-size: 14px;
+}
 }
