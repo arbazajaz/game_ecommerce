@@ -122,6 +122,9 @@ h4 {
     color: #fff;
 }
 
+.border-b{
+    border-bottom: 1px solid #AEAEAE;
+}
 
 .text-primary {
     color: #0D328D !important;
@@ -180,6 +183,9 @@ h4 {
     box-shadow: 0px 10px 40px 0px #00000026;
 }
 
+.border-l {
+    border-left: 1px solid #AEAEAE;
+}
 .border-r {
     border-right: 1px solid #AEAEAE;
 }
@@ -796,6 +802,42 @@ header .search-icon {
     top: -20px;
 }
 
+/* how-to-buy */
+
+.how-to-buy h2{
+    font-weight: 700;
+    font-family: Poppins-SemiBold;
+}
+.how-to-buy ol,
+.how-to-buy li{
+    padding: 20px;
+}
+.how-to-buy li p{
+    max-width: 330px;
+}
+.articles img.dot{
+    width: 23px;
+    padding-right: 10px;
+}
+
+.ways-to-help .card{
+
+ background: linear-gradient(0deg, #672BA3, #672BA3),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    color: white;
+    border-radius: 15px;
+}
+.ways-to-help .card-img{
+    height: 100px;
+    width: 100px;
+    margin: 0px auto;
+    border-radius: 100%;
+    background-color: white;
+    position: relative;
+    bottom: -80px;
+    z-index: 2;
+   
+}
 
 
 footer {
@@ -840,6 +882,18 @@ footer .copyright {
 }
 
 @media(min-width:992px) {
+
+    
+  .add-to-cart h4{
+    font-size: 26px;
+  }
+  .add-to-cart h3{
+    font-size: 24px;
+  }
+  .payment .payment-btn{
+    font-size: 16px;
+  }
+  
     footer .shadow-card .box {
         position: relative;
         left: -35px;
@@ -1327,6 +1381,63 @@ footer .copyright {
     .sell-hero .amount h5 {
         font-size: 12px;
     }
+
+    .add-to-cart .card{
+        border: 1px solid #B0B0B0;
+      }
+      .add-to-cart .offer{
+        font-weight: bold;
+        color: #FF001F;
+        text-align: right;
+      }
+      .add-to-cart .seller-img{
+        width: 80px;
+        height: 80px;
+        margin-right: 15px;
+      }
+      .payment input[type="radio"]{
+        width: 20px;
+        height: 20px;
+        padding-right: 20px;
+      }
+      .add-to-cart .bold-para{
+        font-weight: bold;
+      }
+      .add-to-cart .cart-btn{
+        font-size: 22px;
+        font-weight: 500;
+        border-radius: 10px;
+      }
+      .add-to-cart .btn-search-icon{
+        padding: 5px 10px;
+        background-color: #F0F0F0;
+        border-radius: 10px;
+      }
+      .payment .payment-radius{
+        border-radius: 10px;
+        border: 1px solid #A9A9A9
+      }
+      .payment .payment-btn{
+        padding: 12px;
+        padding-top: 14px;
+        font-size: 20px;
+        margin-top: 20px;
+        color: white;
+        font-family: Poppins-Bold;
+        border-radius: 4px;
+      }
+
+
+    .how-to-buy .bucket{
+
+        max-width: 300px;
+        
+    }
+    .how-to-buy li p {
+        
+        max-width: 100%;
+
+    } 
 
     footer .link-row {
         display: block;
