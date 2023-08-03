@@ -881,6 +881,200 @@ footer .copyright {
 
 }
 
+.circle-search{
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+  }
+  .box-section .search-icon{
+    font-size: 30px;
+    color: #858585;
+  }
+  .box-section .box.active{
+    box-shadow: 0px 10px 40px 0px #601FA161;
+    border: 2px solid #601FA1
+  }
+  .game-card{
+    border-radius: 26px 30px 26px 26px;
+    overflow: hidden;
+    position: relative;
+    color: #5B5B5B;
+    border: 1px solid #D2B5FF;
+    box-shadow: 0px 10px 40px 0px #00000026;
+    margin: 20px auto;
+  }
+  
+  .game-card .game-offers{
+    border: 1px solid #B6B6B6;
+    color: #5B5B5B;
+    padding: 4px 8px;
+    background-color: white;
+    
+  }
+  .game-card .game-bg{
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width:100%;
+    
+  }
+  .product-search .search-input{
+    min-height: 43px;
+    padding-right: 200px;
+  
+  }
+  .product-search .search-panel{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  
+  }
+  .product-search .search-panel .btn {
+    padding: 5px;
+    min-width: 60px;
+    padding-right: 15px;
+    color: #858585;
+  
+  }
+  .product-search .search-icon {
+    position: absolute;
+    right: 130px;
+    font-size: 20px;
+    top: 7%;
+    z-index: 2;
+  }
+  .product-search .search-icon .fa{
+    color: #858585;
+  }
+
+  /* login  */
+  .login{
+    /* background: rgb(138,43,226); */
+    min-height: 100vh;
+    background: linear-gradient(0deg, rgba(138,43,226,1) 35%, rgba(255,255,255,1) 100%);
+}
+.login .logo-icon{
+    font-size: 28px;
+    color: blueviolet;
+}
+.login .login-card{
+    border: none;
+    border-radius: 30px 5px 5px 50px ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-bottom: 20px;
+}
+
+.login .login-para a{
+    color: rgb(104, 104, 104);
+    margin: 10px 0px;
+}
+
+.login  a:hover{
+    text-decoration: none;
+}
+.login .btn-primary{
+    padding: 10px 15px;
+}
+.login .login-or {
+    color: #32353a;
+    position: relative;
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.login .login-or:before,
+.login .login-or:after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.login .login-or:before,
+.login .login-or:after {
+    content: "";
+    width: 100%;
+    height: 0.5px;
+    background: gray;
+    opacity: 0.7;
+    display: inline-block;
+}
+
+.btn-white{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    color:grey;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.btn-white i{
+    margin-right: 20px;
+    font-size: 20px;
+    color: rgb(103, 53, 150);
+} 
+.login .last-row{
+    background-color:#efe8f4;
+    padding: 10px 80px;
+        border-radius: 5px 5px 5px 50px ;
+
+}
+ .login .icon-lock{
+    font-size: 30px;
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    color: rgb(169, 121, 214);
+}
+
+.login .last-row a{
+    color: black;
+    font-weight:400;
+}
+.input-group-prepend{
+    background-color: #fff;
+    color: #000;
+     border-right: 0px !important ;
+
+  
+}
+
+.login .input-group{
+    margin: 10px 15px;
+    max-width: 100%;
+    border-radius: 13px;
+}
+.login .input-group-text{
+    border: 1px solid #AEABAB;
+    border-right: 0px;
+} 
+.login .input-group-text.captcha{
+    border: 1px solid #AEABAB;
+} 
+.login input{
+   background: white;
+   padding: 10px;
+   border: 1px solid #AEABAB;
+   border-left: 0px;
+
+ }
+
+.login  input[type=text]:focus {
+    border: 1px solid #AEABAB;
+    background: rgb(243, 242, 242);
+  }
+
+
+  
+
 @media(min-width:992px) {
 
     
@@ -924,6 +1118,11 @@ footer .copyright {
         max-width: 1440px;
         padding: 0px 20px;
     }
+    
+.logo .auth-container{
+    max-width: 1440px;
+    padding: 0px;
+}
 
     footer .shadow-card .box {
         position: relative;
@@ -1112,6 +1311,10 @@ footer .copyright {
         margin: 5px 0px;
         padding-top: 45px;
     }
+    
+  .game-card{
+    margin: 15px auto;
+  }
 }
 
 @media(max-width:768px) {
@@ -1264,6 +1467,10 @@ footer .copyright {
 
     .company-logo .row {
         min-height: 200px;
+    }
+    
+    .login .login-card{
+        margin: 20px;
     }
 }
 
@@ -1438,6 +1645,21 @@ footer .copyright {
         max-width: 100%;
 
     } 
+
+    .game-card{
+        margin: 10px auto;
+      }
+    .game-card .card-body{
+      padding: 5px;
+      padding-left: 10px;
+    }
+    .game-card .mini-heading{
+    font-size: 18px;
+    }
+    .product-search .search-input {
+      padding-right: 150px;
+  }
+     
 
     footer .link-row {
         display: block;
