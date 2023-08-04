@@ -1071,7 +1071,49 @@ footer .copyright {
     border: 1px solid #AEABAB;
     background: rgb(243, 242, 242);
   }
-
+  .product-process .row{
+    background-image: url('../images/home/steps_bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:top center;
+  }
+  .product-process .mini-cirlce{
+  
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    background: #381075;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    margin: auto;
+  }
+  
+  .order-tracking p {
+    color: #969696;
+    margin-bottom: 5px;
+  }
+  .order-tracking .fa-clock-o {
+    color: #969696;
+    font-size: 30px;
+    font-weight: 100;
+  }
+  .coin-bag {
+    max-width: 50px;
+    margin-top: -18px;
+  }
+  .confirmed-para {
+    color: #555555;
+  }
+  
+  .custom-color {
+    background: #e8e1ee;
+  }
+  hr {
+    color: #707070;
+  }
 
   
 
@@ -1314,6 +1356,10 @@ footer .copyright {
     
   .game-card{
     margin: 15px auto;
+  }
+  .coin-bag {
+    max-width: 30px;
+    margin-top: 0px;
   }
 }
 
@@ -1659,6 +1705,27 @@ footer .copyright {
     .product-search .search-input {
       padding-right: 150px;
   }
+
+  .order-tracking p {
+    font-size: 14px;
+  }
+  .product-id p {
+    font-size: 14px;
+  }
+
+  .order-tracking .fa-clock-o {
+    font-size: 20px;
+  }
+
+  .order-tracking .received-btn .btn {
+    font-size: 14px;
+  }
+
+  .product-process .mini-cirlce{
+    height: 50px;
+    width: 50px;
+
+  }
      
 
     footer .link-row {
@@ -1688,7 +1755,7 @@ footer .copyright {
 }
 
 
-@media only screen and (max-width: 480px) {
+@media (max-width: 480px) {
     .testimonial_pic {
         margin-left: 15px;
         margin-right: 10px;
@@ -1710,4 +1777,12 @@ footer .copyright {
         font-size: 12px;
         margin: 2px;
     }
+    
+  .order-tracking p {
+    font-size: 12px;
+  }
+
+  .order-tracking .fa-clock-o {
+    font-size: 20px;
+  }
 }
